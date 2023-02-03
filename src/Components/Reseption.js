@@ -16,7 +16,7 @@ const Reseption = () => {
   }, [dispatch])
 
 
-  // const keys = ["id", "name", "days", "admisson_day", "hours"]
+
   const reserDocApi = useSelector(state => state.reservSliece?.data)
   // const docDate = (dD) => {
   //   return dD.filter((doctorDate) => keys.some(key => doctorDate[key] || []))
@@ -27,12 +27,13 @@ const Reseption = () => {
   const [sregister, setRegister] = useState([])
   const [sdate, setDate] = useState([])
   const [admission, setAdmission] = useState([])
-  // const [hours, setHours] = useState([])
+  const [hours, setHours] = useState([])
   console.log("sdate", typeof sdate)
+  console.log("sdate", sdate)
 
   console.log("sregister", sregister)
-  console.log("adadmission", admission)
-
+  console.log("adadmission", admission.map((a) => (a?.admission_day)))
+  console.log("hours", hours)
   const createRegister = (e) => {
     e.preventDefault()
     const model = sregister
@@ -43,25 +44,28 @@ const Reseption = () => {
     console.log("Create Register")
   }
 
-
+  const admissionDay = reserDocApi?.map((ad) => (ad?.days))
+  console.log('ad', admissionDay)
   const handle = (e) => {
     setRegister({ ...sregister, [e.target.name]: e.target.value });
     setDate(parseInt(e.target.value));
+    setAdmission(admissionDay.map((adm) => (adm.filter((day) => day.doctor_id === sdate)))
+    );
+    setHours(admissionDay?.map((h) => (h?.hours.filter((admissionHours) => admissionHours.admission_id === sdate))))
+    console.log("hours", hours);
 
-    console.log('est', e.target.value)
+    console.log('handle', e.target.value)
   }
 
-  const selectDay = (e) => {
-    setDate(parseInt(e.target.value));
-    setAdmission(reserDocApi?.map((selectDoctor) => (
-      selectDoctor.days.filter((day) => day.doctor_id === sdate)
-    )))
-    console.log("admi", admission)
-  }
+  // const selectDay = (e) => {
+
+  //   setDate(parseInt(e.target.value));
+
+  //   console.log("selectDay", e.target.value)
+  // }
   // const selecetHour = (e) => {
   //   setDate(parseInt(e.target.value));
-  //   setHours(reserDocApi?.map((hour) => (hour.days.map((adHour) => (adHour.hours.filter((admissionHours) => admissionHours.admission_id === sdate))))))
-  //   console.log("hours", hours)
+
   // }
   // const est = (e) => {
 
@@ -112,7 +116,7 @@ const Reseption = () => {
 
 
             <label for=''>Həkim seçin</label>
-            <select key='' id='' name="doctor_id" onChange={selectDay}   >
+            <select key='' id='' name="doctor_id" onClick={handle}   >
               <option  > Həkim adı seçin</option>
               {
                 reserDocApi?.map((doctorName) => (
@@ -125,7 +129,7 @@ const Reseption = () => {
               <div className='col-md-4'>
 
                 <label for=""  >Tarix Seçin</label>
-                <select key='' id='' name="doctor_id" onChange={selectDay}   >
+                <select key='' id='' name="doctor_id" onClick={handle}   >
                   <option  > Tarix Seçin</option>
                   {
 
@@ -145,12 +149,9 @@ const Reseption = () => {
                   <option  > Saat Seçin</option>
                   {
 
-                    reserDocApi?.map((doctorHours) => (
-                      doctorHours.days.filter((docTime) => docTime.id === sdate).map((time) => (
-                        time.hours.filter((docTime) => docTime.admission_id === sdate).map((hour) => (
-                          // console.log("hou", hou)
-                          <option key={hour?.id} value={hour?.id}  > {hour?.admission_hour}</option>
-                        ))
+                    hours.map((h) => (
+                      h.map((ho) => (
+                        <option key={ho?.id} value={ho?.id}  > {ho?.admission_hour}</option>
                       ))
                     ))
 

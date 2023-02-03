@@ -26,7 +26,7 @@ const DoctorSlide = () => {
                         <div className='card mb-3' >
                             <div className="row ">
                                 <div className="col-md-12">
-                                    <Link to={`/DoctorInfo/${doctors?.id}`} >
+                                    <Link to={`/doctorsInfo/${doctors?.id}`} >
                                         <img
                                             src={doctors?.image}
                                             alt="Trendy Pants and Shoes"
