@@ -27,6 +27,7 @@ const Reseption = () => {
   const [sregister, setRegister] = useState([])
   const [sdate, setDate] = useState([])
   const [admission, setAdmission] = useState([])
+  const [shours, setHours] = useState([])
   console.log("sdate", typeof sdate)
 
   console.log("sregister", sregister)
@@ -49,13 +50,25 @@ const Reseption = () => {
 
     console.log('est', e.target.value)
   }
+  const selectDoctor = (e) => {
+    setDate(parseInt(e.target.value));
+    setAdmission(reserDocApi?.map((doctor) => (
+      doctor.days.filter((doctor) => doctor.doctor_id === sdate)
+    )))
+  }
+
+  // console.log("admi", admission) 
+
 
   const selectDay = (e) => {
-    setDate(parseInt(e.target.value));
-    setAdmission(reserDocApi?.map((selectDoctor) => (
-      selectDoctor.days.filter((day) => day.doctor_id === sdate)
+    setAdmission(parseInt(e.target.value));
+    setHours(admission?.map((hour) => (
+      hour.hours.filter((hour) => hour.admission_id === admission)
     )))
     console.log("admi", admission)
+  }
+  const selectHour = (e) => {
+    alert('demo')
   }
 
   // const est = (e) => {
@@ -107,7 +120,7 @@ const Reseption = () => {
 
 
             <label for=''>Həkim seçin</label>
-            <select key='' id='' name="doctor_id" onChange={selectDay}   >
+            <select key='' id='' name="doctor_id" onChange={selectDoctor}   >
               <option  > Həkim adı seçin</option>
               {
                 reserDocApi?.map((doctorName) => (
@@ -125,7 +138,7 @@ const Reseption = () => {
                   {
 
                     admission?.length > 0 && admission?.map((Day) => (
-                      <option key={Day?.id} value={Day?.id}  > {Day?.admission_hour}</option>
+                      <option key={Day?.id} value={Day?.id}  > {Day?.admission_day}</option>
                     ))
                   }
 
@@ -135,7 +148,7 @@ const Reseption = () => {
               </div>
               <div className='col-md-4'>
                 <label for=""  >Saat Seçin</label>
-                <select key='' id='' name="doctor_id" onChange={handle}   >
+                <select key='' id='' name="doctor_id" onChange={selectHour}   >
                   <option  > Saat Seçin</option>
                   {
 
