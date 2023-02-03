@@ -27,6 +27,7 @@ const Reseption = () => {
   const [sregister, setRegister] = useState([])
   const [sdate, setDate] = useState([])
   const [admission, setAdmission] = useState([])
+  // const [hours, setHours] = useState([])
   console.log("sdate", typeof sdate)
 
   console.log("sregister", sregister)
@@ -57,7 +58,11 @@ const Reseption = () => {
     )))
     console.log("admi", admission)
   }
-
+  // const selecetHour = (e) => {
+  //   setDate(parseInt(e.target.value));
+  //   setHours(reserDocApi?.map((hour) => (hour.days.map((adHour) => (adHour.hours.filter((admissionHours) => admissionHours.admission_id === sdate))))))
+  //   console.log("hours", hours)
+  // }
   // const est = (e) => {
 
   //   setDate(parseInt(e.target.value));
@@ -125,7 +130,8 @@ const Reseption = () => {
                   {
 
                     admission?.length > 0 && admission?.map((Day) => (
-                      <option key={Day?.id} value={Day?.id}  > {Day?.admission_hour}</option>
+                      // 
+                      Day?.map((s) => (<option key={s?.id} value={s?.doctor_id}  > {s?.admission_day}</option>))
                     ))
                   }
 
