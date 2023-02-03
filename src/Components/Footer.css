@@ -1,0 +1,8 @@
+footer{
+    background-color:  #ff3300;
+    background-image: linear-gradient(to bottom right,#ff3300, yellow);
+}
+footer p{
+    color: #f5f8fa;
+    font-size: 16px;
+}

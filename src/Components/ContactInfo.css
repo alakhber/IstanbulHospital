@@ -1,0 +1,57 @@
+
+
+.line{
+    background-color: rgb(14,16,136);
+    width: 64px;
+    height: 2px;
+    position: relative;
+    margin: 15px auto 30px;
+}
+.icons{
+    font-size: 36px;
+    color: #ff3300;
+    text-align: center;
+    cursor: pointer;
+    overflow: hidden;
+    position: relative;
+    /* padding: 0 20px 35px; */
+    margin-bottom: 30px;
+    display: block;
+    font-size: 36px;
+    width: 64px;
+    line-height: 64px;
+    background-color: #ffffff;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+
+}
+
+.icons::before{
+    content: '';
+    position: absolute;
+    top: 38px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: 2px solid #00b489;
+    /* border: 2px solid black; */
+    background-color: transparent;
+}
+.icons h3{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    position: relative;
+    font-size: 16px;
+    color: #00b489;
+}
+.mailInfo span{
+    font-size: 16px;
+    color: #128c7e;
+}
+.icon{
+    background-color: #fff;
+    display: inline;
+    position: relative;
+    /* font-size: 60px; */
+}

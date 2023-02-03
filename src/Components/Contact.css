@@ -1,0 +1,39 @@
+.Contact {
+  background-color:  #ff3300;
+  background-image: linear-gradient(to bottom right,#ff3300, yellow);
+  justify-content: space-between;
+}
+
+.Language p{
+  color: #f5f8fa;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+
+
+.header-tel ul {
+  list-style: none;
+  display: flex;
+  margin-top: 3px;
+}
+.header-tel,
+.Language,
+section a,
+.dropdown-item {
+  font-size: 16px;
+}
+.header-tel ul li span{
+    color: #f5f8fa;
+    padding: 0.5rem;
+}
+.header-tel:nth-child(1){
+  color: #fff; 
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 15px;
+}
+

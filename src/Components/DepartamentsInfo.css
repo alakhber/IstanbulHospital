@@ -1,0 +1,14 @@
+.DepartamentsInfo img{
+    height: 500px !important;
+    width: 100% !important;
+    object-fit: cover;
+}
+.DepartamentsInfo p{
+    align-items: center;
+}
+.DepartamentsInfo ul li{
+    font-size: 30px;
+}
+.departmentImg{
+    height: 356px;
+}

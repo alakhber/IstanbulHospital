@@ -1,0 +1,9 @@
+/* .Block img{
+width: 356px;
+height: 250px;
+object-fit: cover;
+} */
+.articles img{
+    height: 400px;
+    object-fit: cover;
+}

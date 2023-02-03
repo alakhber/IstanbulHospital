@@ -1,0 +1,451 @@
+{
+  "doctors": [
+    {
+      "id": "1",
+      "picre": "",
+      "name": "Dr Məsut",
+      "profession": " Stomotoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "2",
+      "picre": "",
+      "name": "Dr Məlahət",
+      "profession": " profession name",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "3",
+      "picre": "",
+      "name": "Dr İlhamə Məmmədova",
+      "profession": " Endokrinoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "2005",
+          "experienceAndSkills": "'Şəkərli diabet tip 2-nin diaqnostika və müalicəsinin müasir aspektləri' üzrə treninq- kurs"
+        },
+        {
+          "experienceDate": "2008",
+          "experienceAndSkills": "'Piylənmə, dislipidemiya və müasir müalicə üsulları' mövzusu üzrə treninq- kurs"
+        },
+        {
+          "experienceDate": "2011",
+          "experienceAndSkills": "European Accreditation Council for Continuing Medical Education,EASD postgraduate course"
+        },
+        {
+          "experienceDate": "2012",
+          "experienceAndSkills": "'Tip 2 şəkərli diabetin idarə edilməsinə müasir yanaşma' mövzusu üzrə beynəlxalq konfrans"
+        },
+        {
+          "experienceDate": "2012",
+          "experienceAndSkills": "'Şəkərli diabet və ürək-damar xəstəlikləri' mövzusu beynəlxalq konfrans"
+        },
+        {
+          "experienceDate": "2015",
+          "experienceAndSkills": "İnternational Scientific Meeting, advances in diabetes"
+        },
+        {
+          "experienceDate": "2016",
+          "experienceAndSkills": "3rd ESPE Caucasus and Central Asia postgraduate course in Pediatriya endocrinology"
+        },
+        {
+          "experienceDate": "2018",
+          "experienceAndSkills": "'Hamiləlik və endokrin xəstəliklər' mövzusu üzrə İ simpozium"
+        },
+        {
+          "experienceDate": "2018",
+          "experienceAndSkills": "'Endokrinologiyada yeniliklər'adlı II Simpozium"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "4",
+      "picre": "",
+      "name": "Dr Aygün",
+      "profession": " Rentgen",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "5",
+      "picre": "",
+      "name": "Dr Kənan",
+      "profession": "Nevropatoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "6",
+      "picre": "",
+      "name": "Dr Natavan",
+      "profession": "profession name",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "7",
+      "picre": "",
+      "name": "Dr Nabat",
+      "profession": " Uzi",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills":[
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "8",
+      "picre": "",
+      "name": "Dr Fəridə",
+      "profession": " Aftomloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "9",
+      "picre": "",
+      "name": "Dr Şəhla",
+      "profession": "Ginekoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "10",
+      "picre": "",
+      "name": "Dr Elza",
+      "profession": " Qastrentoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "11",
+      "picre": "",
+      "name": "Dr Vüsalə",
+      "profession": " Kardioloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "12",
+      "picre": "",
+      "name": "Dr Fatimə",
+      "profession": "Ginekoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "13",
+      "picre": "",
+      "name": "Dr Nuray",
+      "profession": "Ginekoloq",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "14",
+      "picre": "../img/Hekimler/16.jpg",
+      "name": "Dr Sveta Rzayeva",
+      "profession": "Nevropatoloq",
+      "preface": "Reabilitasiya prosesində hər bir pasiyentə individual yanaşma həkimlik biliklərimizi keyfiyyətli şəkildə tətbiq etməyə bizə imkan yaradır.",
+      "fieldOfAction": "Serebrovaskulyar xəstəliklər  Müxtəlif növ baş ağrıları, başgicəllənmələr Yuxu və yaddaş pozğunluğu Əsəbilik, nevroz,depressiyalar  Enurez Müxtəlif növ onurğa problemləri- boyun , bel ağrıları Müxtəlif növ sinir və əzələ problemləri. ",
+      "education": "01.09.1988-30.06.1994- N.Nərimanov ad. Azərbaycan Dövlət Tibb Universiteti- müalicə- profilaktika fakültəsi",
+      "experienceSkills": [
+        {
+          "experienceDate": "01.08.1994-14.08.1995",
+          "experienceAndSkills": "Ak.Mir Qasımov ad. Respublika Klinik Xəstəxanası 2- ci nevrologiya şöbəsi"
+        },
+        {
+          "experienceDate": "01.07.1995-09.07.2012",
+          "experienceAndSkills": "Bakı Dəmir Yol Xəstəxanası,01.08.2012- Medi Lux 1 MMC Özəl klinika,15.09.2021-İstanbul Hospital"
+        },
+        {
+          "experienceDate": "2013",
+          "experienceAndSkills": "İstanbul Türkiyə Joint Congress of Neurology of Europen Neurology"
+        },
+        {
+          "experienceDate": "2015",
+          "experienceAndSkills": "İstanbul Türkiyə   Nevrologiya üzrə XXI Dünya konqresi Viyana Avstria 31- ci İnternasional Epilepsy konqresi "
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "15",
+      "picre": "",
+      "name": "Dr Elnarə",
+      "profession": "Lor",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills":[
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "16",
+      "picre": "",
+      "name": "Dr Qorxmaz",
+      "profession": " Lor",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "17",
+      "picre": "",
+      "name": "Dr Kəmalə",
+      "profession": "Ümumi Cərrah",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills":[
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "18",
+      "picre": "",
+      "name": "Dr Ruhiyyə",
+      "profession": "Baş tibb bacısı",
+      "preface": "preface info",
+      "fieldOfAction": " file of action information ",
+      "education": " educaton information",
+      "experienceSkills": [
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "19",
+      "picre": "",
+      "name": "Dr Şəkurə Zeynalova",
+      "profession": "Baş tibb bacısı",
+      "preface": "preface info",
+      "fieldOfAction": "Daxili orqan , Uraloji, Ginekoloji,    Endokrinoloji, Süd vəzi ,Hamiləliyin skrininqi,Hamiləliyin 3d,4d, doppleri,Yuxu arteriyaların doppleri,Yuxarı və aşağı ətraf venaların  və arteriyaların doppleri,Yeni doğulanlarda başbeyin neyrosonoqrafiyası , Uşaqlarda bud canaq oynağı müayinələrini aparır .",
+      "education": "  2000 ci Tibb Universitetə daxil olmuşdur.",
+      "experienceSkills":
+      [
+        {
+          "experienceDate": "2005-2006",
+          "experienceAndSkills": "ATU Mərkəzi Uralogiya xəstəxanasında Funksional diaqnostika ixtisası üzrə həkim intern vəzifəsində calışmışdır."
+        },
+        {
+            "experienceDate": "2013",
+            "experienceAndSkills": "Həkimlərin təkmilləşmə institutunda 2014 cü ildə sertifikasiya kecmişdir."
+          },
+          {
+            "experienceDate": "2014",
+            "experienceAndSkills": "Urologiya ,Radiologiya,Gynekologiya ,Endokronologiya üzrə teorik kurs kecmişdir."
+          },
+          {
+            "experienceDate": "2015",
+            "experienceAndSkills": "İnternational  Academy of Medical Ultrasound İngiltərə mütəxəsisi olan Fred Ushakov  iştrakı ilə seminarda kurs kecmiçdir. "
+          },
+          {
+            "experienceDate": "2017",
+            "experienceAndSkills": "isuog.org  “təşkilatı ilə “Advansed in fetal medicine and gynecologic ultrasound “sertifikatını almışdır. "
+          },
+          {
+            "experienceDate": "2018",
+            "experienceAndSkills": "“AFERQ və isuog.org” təşkil etdiyi Fetal anomaliyalarln erkən diaqnostikası seminarında iştrak etmişdir "
+          },
+          {
+            "experienceDate": "2019",
+            "experienceAndSkills": "ADHTİ -nin kecirdiyi 'Diaqnostik Ultrasəsdə Yeni Era ',Fetal Exokardioqrafiya  üzrə Fetal Neyrosonoqrafiya və neyroembriologiya üzrə sertifikat almışdır."
+          },
+          {
+            "experienceDate": "2019",
+            "experienceAndSkills": "“Germany -Azerbaijan MCA kecirdiyi [CAMCA] Advansed Fetal USG seminarı üzre masterklass kecmişdir."
+          },
+          {
+            "experienceDate": "2019",
+            "experienceAndSkills": "AÜDCC - nın təşkil etdiyi Aşsğı ətraf Venaların USM i üzrə mövzuda Master Kursda iştrak etmişdir."
+          },
+          {
+            "experienceDate": "2019",
+            "experienceAndSkills": "Ikinci defe Radiologiya ixtisası üzrə Serifikasiyadan kecmişdir."
+          }
+          
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "20",
+      "picre": "",
+      "name": "Dr Tərlan Qasımov ",
+      "profession": " Qastroenteroloq, Endoskopist",
+      "preface": "preface info",
+      "fieldOfAction": "Mədə-bağırsaq (Mədə və onikibarmaq bağırsaq xorası, bağırsaq polipləri, kolit, kron xəstəliyi, qəbizlik, ishal və s.),qaraciyər ( qaraciyər piylənməsi, hepatitlər və s) ,öd kisəsi və mədəalti vəzi (xroniki və kəskin pankreatitlər)  xəstəliklərinin ən müasir metodlarla müayinə və müalicəsi.",
+      "education": "2010-cu ildə Azərbaycan Tibb Universitetini bitirmişdir.",
+      "experienceSkills": [
+        {
+          "experienceDate": "2007—2010",
+          "experienceAndSkills": "Müxtəlif özəl və dövlət klinikalarında həkim assistenti olaraq çalışıb."
+        },
+        {
+            "experienceDate": "2010—2011",
+            "experienceAndSkills": "İnternatura, ak. Mirqasımov adına Respublika Kliniki Xəstəxanası, qastoenterologiya şöbəsində həkim assistenti olaraq çalışıb."
+          },
+          {
+            "experienceDate": "2013-2014",
+            "experienceAndSkills": "İstanbul Universiteti Cerrahpaşa Tibb Fakultesində Qastroenterologiya və Endoskopiya üzrə təkmilləşmə kursunda olmuşdur."
+          }
+
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "21",
+      "picre": "",
+      "name": "Dr Aydın Əliyev",
+      "profession": "Radioloq, Direktor",
+      "preface": "preface info",
+      "fieldOfAction": "Bütün mürəkkəb və xüsusi Rentgenoloji müayinələrin yüksək səviyyədə Rəqəmsal Kompüterli Rentgen aparatında icrasını həyata keçirir: Bütün Rentgenoloji müayinələr, o cümlədən: 1.Histerosalpinqoqrafiya(Metrosalpinqoqrafiya)-HSG(qadın sonsuzluğuna görə uşaqlıq borularının kontrastlı Rentgenoloji müayinəsi. 2. İrriqoskopiya və irriqoqrafiya(yoğun bağırsağın retroqrad kontrastlı rentgen müayinəsi)  3. Uşaqlarda böyümə zonalarının müayinəsi 4. Fistuloqrafiya 5. Ekskretor uroqrafiya (İntravenoz pieloqrafiya-İVP) 6. Sistoqrafiya (Voiding sistouretroqrafiya) 7. Skoliozun-onurğa əyriliklərinin təyini (Cobb bucağının ölçülməsi)",
+      "education": "1992 Bakı şəhəri kimiya-biologiya təmayüllü liseyi bitirib. 1992 Azərbaycan Tibb Universitetinin I Müalicə-profilaktika fakultəsinə daxil olub.1998-ci ildə həmin fakultəni bitirərək həkim-rentgenoloq ixtisasını seçib.",
+      "experienceSkills":[
+        {
+            "experienceDate": "1998-1999",
+            "experienceAndSkills": "Milli Onkologiya Mərkəzində Akademik Rəhim Rəhimovun rəhbərliyi altında internatura keçib."
+          },
+          {
+            "experienceDate":  "2009",
+            "experienceAndSkills": "Almaniyanın Berlin şəhərində Vivantes Humboldt-Klinikum-da Şüa diaqnostikası üzrə ixtisasartırma kursu keçib."
+          }
+      ],
+      "certificate": "certificate info"
+    },
+    {
+      "id": "22",
+      "picre": "",
+      "name": "Dr Ərşad Bagırov",
+      "profession": "Ümumi cərrah",
+      "preface": "preface info",
+      "fieldOfAction": "file of action information",
+      "education": "1999-2005-ci illərdə Azərbaycan Tibb Universiteti Müalicə-Profilaktika ixtisasını bitirib. 2011-2012-ci il 19 Mayıs Universiteti Tip Fakültəsi 'Genel Cerrahi Ve Laparoskopik Cerrahi' dən təhsil almışdır.",
+      "experienceSkills":[
+        {
+          "experienceDate": "experience and skills info",
+          "experienceAndSkills": "experience and skills info"
+        }
+      ],
+      "certificate": "certificate info"
+    }
+  ]
+}
